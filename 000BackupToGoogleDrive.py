@@ -1,3 +1,21 @@
+# Google Cloud API Setup
+# ---------------------
+#
+# Requirements:
+# 1. Google Cloud Project
+# 2. Service account with JSON key file
+# 3. Enabled Google Drive API
+#
+# Needed files:
+# - APIFetchData.csv (API credentials)
+# - config.json (configuration)
+# - JSON key file (path in APIFetchData.csv)
+
+
+# Dynamic Configuration
+# ---------------------
+# Load API credentials and config from current directory
+
 import os
 import json
 import zipfile
@@ -8,8 +26,6 @@ from datetime import datetime
 import logging
 from oauth2client.service_account import ServiceAccountCredentials
 
-
-# Get the current file's directory
 CURRENT_DIR = os.path.dirname(__file__)
 BASE_DIR = os.path.join(CURRENT_DIR, '..')
 
