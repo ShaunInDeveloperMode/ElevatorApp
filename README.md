@@ -1,7 +1,27 @@
-# ElevatorApp
+**Elevator App**
+================
 
-**Elevator App** is a Python-based application that helps users schedule keyword-based Google searches and track intellectual property (IP) infringements using the Google Search API. Additionally, the app can fetch DNS, WHOIS, and domain location information from API Ninja to assist users in filing DMCA takedown notices.
+Elevator App is a proprietary Python-based application designed to facilitate keyword-based Google searches and track intellectual property (IP) infringements using the Google Search API. Additionally, the app leverages API Ninja to retrieve DNS, WHOIS, and domain location information, streamlining the process of filing DMCA takedown notices.
 
+
+**Note on Code Availability**
+---------------------------
+As Elevator App is a commercial project, this repository provides selective code snippets demonstrating API functionality while withholding the overall design and architecture of the application's proof-of-concept (POC). Access to the complete codebase is restricted.
+
+
+**Functionality Overview**
+-------------------------
+
+* Keyword-based Google search scheduling
+* Intellectual property (IP) infringement tracking
+* DNS, WHOIS, and domain location information retrieval via API Ninja
+* DMCA takedown notice assistance
+
+
+**Status**
+----------
+
+Under development. For more information, please contact [shaun.hardrick@gmail.com]. 
 ## Features
 
 - **GSTEXT Management**: Automatically generate Google Search keywords based on user-inputted department fields and subtext keywords.
